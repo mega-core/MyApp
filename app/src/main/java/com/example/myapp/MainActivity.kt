@@ -3,7 +3,7 @@ package com.example.myapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.EditText
+import android.widget.*
 import androidx.appcompat.widget.LinearLayoutCompat
 
 class MainActivity : AppCompatActivity() {
@@ -13,6 +13,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val textV = findViewById<EditText>(R.id.editTextTextPersonName)
         val nextButton = findViewById<LinearLayoutCompat>(R.id.linearLayoutCompat)
+        val profileImg = findViewById<ImageView>(R.id.profile_img)
+        val nothing = findViewById<ImageButton>(R.id.nothing)
+        nothing.setOnClickListener{
+            Toast.makeText(this,"This button does nothing",Toast.LENGTH_LONG).show()
+        }
+        profileImg.setOnClickListener{
+            Toast.makeText(this,"There is no image",Toast.LENGTH_SHORT).show()
+        }
         nextButton.setOnClickListener {
             val name = textV.text?.toString()
             Intent(this,SecondActivity::class.java).also {
