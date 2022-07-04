@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:aapt="http://schemas.android.com/aapt"
-    android:width="100dp" android:height="100dp" android:viewportHeight="100" android:viewportWidth="100">
+    android:width="200dp" android:height="200dp" android:viewportHeight="200" android:viewportWidth="200">
 
 
-    <path android:pathData="M 0,0 L 100,100 0,100 z">
+    <path android:pathData="M 50,50 L 150,150 50,150 z">
         <aapt:attr name="android:fillColor">
             <gradient
-                android:endX="50"
-                android:endY="100"
-                android:startX="50"
-                android:startY="50"
+                android:endX="100"
+                android:endY="150"
+                android:startX="100"
+                android:startY="100"
                 android:type="linear">
                 <item
                     android:color="#6727B0"
@@ -28,13 +28,13 @@
 
 
 
-    <path android:pathData="M 0,0 L 100,0 0,100 z">
+    <path android:pathData="M 50,50 L 150,50 50,150 z">
         <aapt:attr name="android:fillColor">
             <gradient
-                android:endX="0"
-                android:endY="60"
-                android:startX="60"
-                android:startY="0"
+                android:endX="50"
+                android:endY="110"
+                android:startX="110"
+                android:startY="50"
                 android:type="linear">
                 <item
                     android:color="#6727B0"
@@ -50,17 +50,15 @@
 
     </path>
 
-    <path
-        android:fillColor="#D38006"
-        android:pathData="M 100,0 L 60,0 0,60 0,100"/>
 
-    <path android:pathData="M 100,0 L 60,0 0,60 0,100">
+
+    <path android:pathData="M 150,50 L 110,50 50,110 50,150">
         <aapt:attr name="android:fillColor">
             <gradient
-                android:endX="0"
-                android:endY="100"
-                android:startX="50"
-                android:startY="50"
+                android:endX="50"
+                android:endY="150"
+                android:startX="100"
+                android:startY="100"
                 android:type="linear">
                 <item
                     android:color="#D38006"

@@ -13,10 +13,10 @@
                 android:endX="50"
                 android:endY="108">
                 <item
-                    android:color="#0683E6"
+                    android:color="#229DFF"
                     android:offset="0.0"/>
                 <item
-                    android:color="#6727B0"
+                    android:color="#00BCD4"
                     android:offset="0.6"/>
 
 
