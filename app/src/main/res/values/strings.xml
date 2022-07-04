@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">myApp</string>
+    <string name="next_button">NEXT ACTIVITY</string>
+    <string name="downarrow">DownArrow</string>
+    <string name="profile_img">Profile Image</string>
+    <string name="user_name">Sepehr Ayyoubi</string>
+    <string name="description">Learning Android Studio Programming</string>
+    <string name="write_to_send_next">Write to send text to next activity</string>
 </resources>
