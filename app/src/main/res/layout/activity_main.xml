@@ -74,31 +74,33 @@
 
     </LinearLayout>
 
-    <androidx.appcompat.widget.LinearLayoutCompat
-        android:id="@+id/linearLayoutCompat"
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/nextBtn"
+        android:background="@drawable/next_button"
         android:layout_width="0dp"
         android:layout_height="70dp"
-        android:layout_margin="16dp"
-        android:background="@drawable/next_button"
-        android:gravity="center"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="16dp">
 
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:background="@drawable/ic_next"
-            android:contentDescription="@string/next_button" />
-
+            android:contentDescription="@string/next_button"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/next_button"
             android:textColor="#efefef"
             android:textSize="25sp"
-            android:textStyle="italic" />
-    </androidx.appcompat.widget.LinearLayoutCompat>
+            android:textStyle="italic"/>
+
+
+    </LinearLayout>
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -109,7 +111,6 @@
         android:inputType="textPersonName"
         android:text=""
         android:hint="@string/write_to_send_next"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayoutCompat"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
